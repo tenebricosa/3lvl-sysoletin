@@ -1,7 +1,8 @@
-@(message: String)
+@(message: String)(project_name: String)
 
-@main("Welcome to Play") {
-
-    @play20.welcome(message, style = "Java")
+@main("Моя биография")(project_name) {
+<h1>@message</h1>
+} {
+   привет котанам!!!111!!
 
 }
